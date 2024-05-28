@@ -1,3 +1,6 @@
+
+![Screenshot 2024-05-28 185726](https://github.com/Brainydaps/QuestionStage/assets/41041115/b567e281-8552-4055-9dcc-521648b5d969)
+
 QuestionStage is a Python console application i wrote that utilizes natural language processing (NLP) techniques to analyze and respond to user input questions. Its key features include question analysis, knowledge retrieval, text processing, part-of-speech tagging, named entity recognition, contextual understanding, response generation, error handling, continuous learning, and integration with other applications. This script can be used as a building block for chatbots, virtual assistants, or other NLP systems to provide a more comprehensive language understanding and response generation capability." Here are the key features:
 
 1. Question Analysis: The script analyzes the input question to identify the keywords, parts of speech, and intent behind the question using a combination of libraries, models and tools like nltk, spacy, textblob.
