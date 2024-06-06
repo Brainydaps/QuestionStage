@@ -1,26 +1,57 @@
+# QuestionStage
 
 ![Screenshot 2024-05-28 185726](https://github.com/Brainydaps/QuestionStage/assets/41041115/b567e281-8552-4055-9dcc-521648b5d969)
 
-QuestionStage is a Python console application i wrote that utilizes natural language processing (NLP) techniques to analyze and respond to user input questions. Its key features include question analysis, knowledge retrieval, text processing, part-of-speech tagging, named entity recognition, contextual understanding, response generation, error handling, continuous learning, and integration with other applications. This script can be used as a building block for chatbots, virtual assistants, or other NLP systems to provide a more comprehensive language understanding and response generation capability." Here are the key features:
+## Overview
 
-1. Question Analysis: The script analyzes the input question to identify the keywords, parts of speech, and intent behind the question using a combination of libraries, models and tools like nltk, spacy, textblob.
+*QuestionStage* is a Python console application that utilizes natural language processing (NLP) techniques to analyze and respond to user input questions. This script can be used as a building block for chatbots, virtual assistants, or other NLP systems to provide a comprehensive language understanding and response generation capability.
 
-2. Knowledge Retrieval: It retrieves relevant information from a predefined knowledge base (the responses dictionary) to answer the question.
+## Key Features
 
-3. Text Processing: The script performs text processing techniques like tokenization, stemming, and lemmatization to normalize the input question and knowledge base.
+1. *Question Analysis*: Analyzes the input question to identify keywords, parts of speech, and intent using libraries like NLTK, spaCy, and TextBlob.
 
-4. Part-of-Speech (POS) Tagging: It identifies the parts of speech (nouns, verbs, adjectives, etc.) in the input question to better understand its meaning.
+2. *Knowledge Retrieval*: Retrieves relevant information from a predefined knowledge base (the responses dictionary) to answer the question.
 
-5. Named Entity Recognition (NER): The script recognizes named entities (people, places, organizations, etc.) in the input question to provide more accurate answers.
+3. *Text Processing*: Performs text processing techniques such as tokenization, stemming, and lemmatization to normalize the input question and knowledge base.
 
-6. Contextual Understanding: It uses contextual information to disambiguate words and phrases with multiple meanings.
+4. *Part-of-Speech (POS) Tagging*: Identifies the parts of speech (nouns, verbs, adjectives, etc.) in the input question to better understand its meaning.
 
-7. Response Generation: Based on the analysis and knowledge retrieval, the script generates a response to the input question.
+5. *Named Entity Recognition (NER)*: Recognizes named entities (people, places, organizations, etc.) in the input question to provide more accurate answers.
 
-8. Error Handling: It includes error handling mechanisms to handle unknown questions, ambiguous questions, or questions with no clear answer.
+6. *Contextual Understanding*: Uses contextual information to disambiguate words and phrases with multiple meanings.
 
-9. Continuous Learning: The script can be trained with a lot more new questions and answers to improve its knowledge base and response accuracy over time.
+7. *Response Generation*: Generates a response to the input question based on the analysis and knowledge retrieval.
 
-10. Integration: It can be integrated with various applications, such as chatbots, virtual assistants, or other NLP systems, to provide a more comprehensive language understanding and response generation capability.
+8. *Error Handling*: Includes mechanisms to handle unknown questions, ambiguous questions, or questions with no clear answer.
 
-11. I tried so hard to integrate this python console application with .NET MAUI template, but it didnt work due to compatibility issues. I tried using python.NET and ironPython open source implementations of python that were built to integrate with .NET Framework, the application soure code compiled and launch succefully on both windows 11 and android 14 but it kept throughing an error: " the delegate for type initilializer threw an exception" within the loaded app itself, so i gave up trying after many days of debugging and brain storming. I will commit the project to git later for anyone who think they can solve it. Enjoy
+9. *Continuous Learning*: Can be trained with new questions and answers to improve its knowledge base and response accuracy over time.
+
+10. *Integration*: Can be integrated with various applications, such as chatbots, virtual assistants, or other NLP systems, to provide comprehensive language understanding and response generation.
+
+## Development Notes
+
+I attempted to integrate this Python console application with a .NET MAUI template, but encountered compatibility issues. I tried using Python.NET and IronPython, which are open-source implementations of Python designed to integrate with the .NET Framework. The application source code compiled and launched successfully on both Windows 11 and Android 14, but it kept throwing an error: "the delegate for type initializer threw an exception" within the loaded app itself. After many days of debugging and brainstorming, I decided to discontinue this integration effort.
+
+I will commit the project to GitHub later for anyone who thinks they can solve this issue. Enjoy!
+
+## Installation
+
+1. Clone the repository:
+    bash
+    git clone https://github.com/Brainydaps/QuestionStage.git
+    cd QuestionStage
+    
+
+2. Install the required packages:
+    bash
+    pip install -r requirements.txt
+    
+
+3. Run the application:
+    bash
+    python main.py
+    
+
+## Contribution
+
+Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or bug fixes.
